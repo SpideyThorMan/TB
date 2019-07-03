@@ -83,10 +83,20 @@ int main()
 			for (int i = 0; i < 3; i++)
 			  {
 				if (xAxis[i] == 3)
+				    {
 					if (map[x][3] == "  ")
 						score = score + 1;
+				    }
 				if (map[x][3] == "* ")
+				    {    
 					wasit = false;
+				    }
+				
+				if (map[x][3] == "# ")
+				    {    
+					wasit = false;
+				    }
+					
 			  }
 			map[x][3] = "B>";
 			for (int i = 1; i < 19; i++)
