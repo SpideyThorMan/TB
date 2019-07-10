@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1562748393 source:c:\users\predator\desktop\tappy twity\main.cpp
+	<iostream>
+	<windows.h>
+	<dos.h>
+	<time.h>
+	<conio.h>
+	<fstream>
+
+1562002082 source:c:\users\predator\desktop\tappy twity\resource.rc
+
